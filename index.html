@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="بورتفوليو حليمة، طالبة جامعية متخصصة في الأمن السيبراني.">
+  <meta name="theme-color" content="#4c1d95">
+  <title>حليمة | طالبة الأمن السيبراني</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="الصفحة الرئيسية - حليمة">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span class="brand-text">
+          <strong>حليمة</strong>
+          <small>Cybersecurity Student</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="القائمة الرئيسية">
+        <a href="#home" class="nav-link active">الرئيسية</a>
+        <a href="#about" class="nav-link">نبذة عني</a>
+        <a href="#skills" class="nav-link">مهاراتي</a>
+        <a href="#contact" class="nav-link">تواصل معي</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Welcome / Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-one"></span>
+        <span class="blob blob-two"></span>
+        <span class="grid-overlay"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> طالبة أمن سيبراني</p>
+          <h1 id="hero-title" class="hero-name" dir="ltr">HALIMA</h1>
+          <h2 class="hero-heading">أحمي المستقبل... فكرةً فكرة، وشبكةً شبكة.</h2>
+          <p class="hero-lead">
+            طالبة جامعية مهتمة بأمن المعلومات وحماية الأنظمة والشبكات، أتعلم كل يوم كيف أبني عالماً رقمياً أكثر أماناً.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#skills">
+              <span>اكتشفي مهاراتي</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></svg>
+            </a>
+            <a class="btn btn-outline" href="#contact">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>
+            </a>
+          </div>
+
+          <ul class="hero-tags" aria-label="مجالات الاهتمام">
+            <li>Cybersecurity</li>
+            <li>Networks</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="visual-orbit orbit-three"></div>
+
+          <div class="shield-card">
+            <div class="shield-glow"></div>
+            <svg class="shield-icon" viewBox="0 0 24 24">
+              <path d="M12 2.5 20 6v5.5c0 5.2-3.4 8.9-8 10-4.6-1.1-8-4.8-8-10V6z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span class="shield-label">SECURE · LEARN · GROW</span>
+          </div>
+
+          <div class="floating-chip chip-top">
+            <span class="chip-icon">⌁</span>
+            <span>Network Basics</span>
+          </div>
+          <div class="floating-chip chip-bottom">
+            <span class="chip-icon lock">♢</span>
+            <span>Defensive Thinking</span>
+          </div>
+          <div class="code-lines">
+            <span>0100 0101</span>
+            <span>1011 0011</span>
+            <span>0110 1100</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about" aria-label="الانتقال إلى قسم نبذة عني">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-heading reveal">
+          <p class="section-kicker"><span></span> About Me</p>
+          <h2 id="about-title">نبذة <em>عنّي</em></h2>
+          <p class="section-subtitle">شغف بالتقنية، ورؤية واضحة نحو مستقبل أكثر أمناً.</p>
+        </div>
+
+        <div class="about-body reveal">
+          <div class="about-card">
+            <div class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 3 7v5c0 4.8 3.4 8.3 9 9 5.6-.7 9-4.2 9-9V7z"/><path d="M9 12h6m-3-3v6"/></svg>
+            </div>
+            <p class="about-text">
+              طالبة جامعية متخصصة في الأمن السيبراني، مهتمة بالتقنية وأمن المعلومات وحماية الأنظمة والشبكات، وأسعى إلى تطوير مهاراتي واكتساب الخبرة.
+            </p>
+          </div>
+
+          <div class="about-points">
+            <article class="point">
+              <span class="point-number">01</span>
+              <div><h3>التعلّم المستمر</h3><p>مواكبة أساسيات الأمن ومفاهيم الشبكات خطوة بخطوة.</p></div>
+            </article>
+            <article class="point">
+              <span class="point-number">02</span>
+              <div><h3>التفكير التحليلي</h3><p>تحليل المشكلات وفهمها من جذورها قبل الوصول إلى الحل.</p></div>
+            </article>
+            <article class="point">
+              <span class="point-number">03</span>
+              <div><h3>العمل بروح الفريق</h3><p>تواصل واضح وتعاون فعّال لإنجاز العمل باحترافية.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker"><span></span> My Skills</p>
+          <h2 id="skills-title">مهاراتي <em>المميزة</em></h2>
+          <p class="section-subtitle">مجموعة من المهارات التي أعمل على تطويرها باستمرار.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal" style="--delay: 0ms">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.6 3.2 8.1 8 9 4.8-.9 8-4.4 8-9V6z"/><path d="M9.5 12.2 11.3 14l3.4-4"/></svg>
+            </div>
+            <h3 class="skill-title" dir="ltr">Cybersecurity Fundamentals</h3>
+            <p>فهم مبادئ حماية المعلومات والتهديدات الشائعة وأساليب الوقاية.</p>
+            <div class="skill-bar"><span style="--level: 88%"></span></div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 90ms">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="6" rx="2"/><rect x="3" y="13" width="18" height="6" rx="2"/><path d="M7 8h.01M7 16h.01M11 8h5m-5 8h5"/></svg>
+            </div>
+            <h3 class="skill-title" dir="ltr">Network Basics</h3>
+            <p>معرفة أساسيات الشبكات وعناوين IP وكيفية عمل الأجهزة معاً.</p>
+            <div class="skill-bar"><span style="--level: 80%"></span></div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 180ms">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="m12 3 2.4 5 5.6.8-4 4 .9 5.7L12 16l-4.9 2.5.9-5.7-4-4L9.6 8z"/></svg>
+            </div>
+            <h3 class="skill-title" dir="ltr">Problem Solving</h3>
+            <p>تحليل المواقف وتقسيم التحديات إلى خطوات واضحة ووصول إلى حلول عملية.</p>
+            <div class="skill-bar"><span style="--level: 85%"></span></div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 270ms">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3z"/><path d="M8 9h8m-8 4h5"/></svg>
+            </div>
+            <h3 class="skill-title" dir="ltr">Communication Skills</h3>
+            <p>التعبير عن الأفكار بوضوح والاستماع الجيد والعمل ضمن فريق.</p>
+            <div class="skill-bar"><span style="--level: 82%"></span></div>
+          </article>
+
+          <article class="skill-card reveal" style="--delay: 360ms">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/><path d="m16 16 2 2 3-3"/></svg>
+            </div>
+            <h3 class="skill-title" dir="ltr">Microsoft Office</h3>
+            <p>استخدام Word وExcel وPowerPoint لتنظيم المعلومات وعرض الأعمال باحتراف.</p>
+            <div class="skill-bar"><span style="--level: 78%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="section-kicker"><span></span> Get In Touch</p>
+          <h2 id="contact-title">لنتواصل <em>معاً</em></h2>
+          <p class="section-subtitle">إذا كان لديك سؤال أو فرصة تعاون أو استفسار، يسعدني أن أسمع منك.</p>
+
+          <div class="contact-action-card">
+            <div class="action-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/><path d="M8 10h8m-8 4h5"/></svg>
+            </div>
+            <div>
+              <h3>هل ترغبين في التواصل؟</h3>
+              <p>املئي النموذج واكتبي رسالتك، وسأتطلع للاطلاع عليها.</p>
+            </div>
+            <a class="btn btn-primary btn-contact" href="#contact-form">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">الاسم</label>
+                <input id="name" name="name" type="text" placeholder="اكتبي اسمك" autocomplete="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">الموضوع</label>
+              <input id="subject" name="subject" type="text" placeholder="موضوع الرسالة" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">الرسالة</label>
+              <textarea id="message" name="message" rows="5" placeholder="اكتبي رسالتك هنا..." required></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-block" type="submit">
+              <span>إرسال الرسالة</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></svg>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#top">حليمة</a>
+      <p>طالبة الأمن السيبراني · شغف بتقنية آمنة ومستقبل أفضل</p>
+      <a class="back-top" href="#top">
+        العودة للأعلى
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0-6 6m6-6 6 6"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const header = document.querySelector('.site-header');
+      const navToggle = document.querySelector('.nav-toggle');
+      const mainNav = document.getElementById('main-nav');
+      const navLinks = Array.from(document.querySelectorAll('.nav-link'));
+      const sections = ['home', 'about', 'skills', 'contact'].map(id => document.getElementById(id));
+
+      function closeMenu() {
+        header.classList.remove('nav-open');
+        navToggle.setAttribute('aria-expanded', 'false');
+        navToggle.setAttribute('aria-label', 'فتح القائمة');
+      }
+
+      navToggle.addEventListener('click', function () {
+        const isOpen = header.classList.toggle('nav-open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+        navToggle.setAttribute('aria-label', isOpen ? 'إغلاق القائمة' : 'فتح القائمة');
+      });
+
+      navLinks.forEach(link => link.addEventListener('click', closeMenu));
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+
+      const revealItems = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.14, rootMargin: '0px 0px -60px 0px' });
+        revealItems.forEach(item => observer.observe(item));
+      } else {
+        revealItems.forEach(item => item.classList.add('is-visible'));
+      }
+
+      function updateHeader() {
+        header.classList.toggle('scrolled', window.scrollY > 20);
+      }
+      updateHeader();
+      window.addEventListener('scroll', updateHeader, { passive: true });
+
+      const sectionObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+        });
+      }, { threshold: 0.45 });
+      sections.forEach(section => { if (section) sectionObserver.observe(section); });
+
+      const form = document.getElementById('contact-form');
+      const status = document.getElementById('form-status');
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        if (!form.checkValidity()) {
+          status.textContent = 'يرجى تعبئة جميع الحقول بشكل صحيح.';
+          status.className = 'form-status is-error';
+          form.reportValidity();
+          return;
+        }
+        status.textContent = 'تم استلام بيانات رسالتك محلياً. أضفي وسيلة التواصل الحقيقية لديك لتفعيل الإرسال.';
+        status.className = 'form-status is-success';
+        form.reset();
+      });
+    })();
+  </script>
+</body>
+</html>
